@@ -29,11 +29,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [[RLMRealm defaultRealm] transactionWithBlock:^{
+        [[RLMRealm defaultRealm] deleteAllObjects];
+    }];
+
+    [[RLMRealm defaultRealm] transactionWithBlock:^{
+        for (int i = 0; i < 2; i++) {
+            Book *book = [Book new];
+            book.title = @"Realm";
+            [[RLMRealm defaultRealm] addObject:book];
+        }
+    }];
 }
 
 - (IBAction)buttonAction:(id)sender {
-//    [self.token stop];
-    self.token = [[Book allObjects] addNotificationBlock:^(RLMResults * _Nullable results, NSError * _Nullable error) {
+    self.token = [[Book objectsWhere:@"title CONTAINS %@", @"Realm"] addNotificationBlock:^(RLMResults * _Nullable results, NSError * _Nullable error) {
+        NSLog(@"%@", error);
+        NSLog(@"%@", results);
+    }];
+    self.token = [[Book objectsWhere:@"title CONTAINS %@", @"Realm"] addNotificationBlock:^(RLMResults * _Nullable results, NSError * _Nullable error) {
         NSLog(@"%@", error);
         NSLog(@"%@", results);
     }];

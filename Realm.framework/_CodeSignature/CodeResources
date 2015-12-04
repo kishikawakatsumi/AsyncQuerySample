@@ -4,21 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>A11A158A-5A56-30B7-8D3C-C5EA54DC8B87.bcsymbolmap</key>
+		<key>440633DD-2104-3E54-ACB7-5AC85D1E9933.bcsymbolmap</key>
 		<data>
-		dGMferzbO7OfQHeQECDPAIyJGAw=
+		0SN3xkl7mZicjJrmq6M9YNs21jo=
+		</data>
+		<key>BDA13DF4-2A2F-3705-911B-83676A51561B.bcsymbolmap</key>
+		<data>
+		4LbqNFv1zoFta2/yrBXuChCGFQo=
 		</data>
 		<key>CHANGELOG.md</key>
 		<data>
-		cyYXjNMQucwOFXXgqvDy67IkFMA=
-		</data>
-		<key>F548B947-B805-3121-A4BF-80BB83A96621.bcsymbolmap</key>
-		<data>
-		QWAAqLcFf+/fR/VtnXHA3ftuApI=
+		GOCg7+KstSwdfn+19TTjyfxJQU8=
 		</data>
 		<key>Headers/RLMArray.h</key>
 		<data>
-		QeksUMzQXBJ8tp0ogckEQ0P8Ff8=
+		Z8fLFRrK5gDp1EKdyXN0OI8F8rc=
 		</data>
 		<key>Headers/RLMCollection.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/RLMResults.h</key>
 		<data>
-		L7CJ0bKMEAAnYXniTgiMcobp0zc=
+		HLu3llcDJz3EeFyEpsomZT2PIa0=
 		</data>
 		<key>Headers/RLMSchema.h</key>
 		<data>
@@ -159,21 +159,21 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>A11A158A-5A56-30B7-8D3C-C5EA54DC8B87.bcsymbolmap</key>
+		<key>440633DD-2104-3E54-ACB7-5AC85D1E9933.bcsymbolmap</key>
 		<data>
-		dGMferzbO7OfQHeQECDPAIyJGAw=
+		0SN3xkl7mZicjJrmq6M9YNs21jo=
+		</data>
+		<key>BDA13DF4-2A2F-3705-911B-83676A51561B.bcsymbolmap</key>
+		<data>
+		4LbqNFv1zoFta2/yrBXuChCGFQo=
 		</data>
 		<key>CHANGELOG.md</key>
 		<data>
-		cyYXjNMQucwOFXXgqvDy67IkFMA=
-		</data>
-		<key>F548B947-B805-3121-A4BF-80BB83A96621.bcsymbolmap</key>
-		<data>
-		QWAAqLcFf+/fR/VtnXHA3ftuApI=
+		GOCg7+KstSwdfn+19TTjyfxJQU8=
 		</data>
 		<key>Headers/RLMArray.h</key>
 		<data>
-		QeksUMzQXBJ8tp0ogckEQ0P8Ff8=
+		Z8fLFRrK5gDp1EKdyXN0OI8F8rc=
 		</data>
 		<key>Headers/RLMCollection.h</key>
 		<data>
@@ -229,7 +229,7 @@
 		</data>
 		<key>Headers/RLMResults.h</key>
 		<data>
-		L7CJ0bKMEAAnYXniTgiMcobp0zc=
+		HLu3llcDJz3EeFyEpsomZT2PIa0=
 		</data>
 		<key>Headers/RLMSchema.h</key>
 		<data>
